@@ -2,6 +2,7 @@ body{
     display: flex;
     flex-direction: column;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* align-items: center; */  
 }
 ul{
     display: flex;
@@ -17,28 +18,31 @@ a{
 }
 
 button{
-    display: block;
-    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
     color: white;
-    border: 0px;
+    border: 2px solid white;
     border-radius: 20px;
     width: 100px;
     height: 30px;
+    font-weight: bold;
     
 }
 
 
 .header{
     display: flex;
-    padding: 20px 0px 20px 0px;
     align-items: center;
     justify-content: space-evenly;
     background-color: #1f2937;
+    padding: 20px 0px;
     
 }
 .prelim{
     display: flex;
-    padding: 30px;
+    padding: 130px;
     background-color: #1f2937;
     align-items: center;
     justify-content: space-evenly;
@@ -74,10 +78,38 @@ button{
     
     gap: 50px;
 }
+
 .card-image{
     width: 250px;
     height: 300px;
     border: 5px solid blue;
     border-radius: 25px;
 }
+.quote{
+    margin-top: 50px;
+    background-color:#e5e7eb;
+    font-family: monospace;
+    
+    font-size: 24px;
+    padding: 70px 400px;
+    text-align: center;
+    color:#1f2937;
+}
 
+.attribution{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.cta{
+    display: flex;
+    align-items: center;
+    padding: 20px 50px;
+    margin: 40px auto;
+    width: 600px;
+    color: white;
+    border-radius: 20px;
+    background-color: #3882F6;
+    gap: 50px;
+    
+}
