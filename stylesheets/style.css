@@ -42,7 +42,7 @@ button{
 }
 .prelim{
     display: flex;
-    padding: 130px;
+    padding: 20px 130px;
     background-color: #1f2937;
     align-items: center;
     justify-content: space-evenly;
@@ -89,7 +89,6 @@ button{
     margin-top: 50px;
     background-color:#e5e7eb;
     font-family: monospace;
-    
     font-size: 24px;
     padding: 70px 400px;
     text-align: center;
@@ -110,6 +109,16 @@ button{
     color: white;
     border-radius: 20px;
     background-color: #3882F6;
-    gap: 50px;
+   
+    justify-content: space-between;
     
+}
+
+.footer{
+    background-color: #1f2937;
+    padding: 4px 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
