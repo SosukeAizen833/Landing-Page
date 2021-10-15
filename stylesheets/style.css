@@ -86,6 +86,7 @@ button{
 .card-image{
     width: 250px;
     height: 300px;
+    max-width: 100%;
     border: 5px solid blue;
     border-radius: 25px;
 }
