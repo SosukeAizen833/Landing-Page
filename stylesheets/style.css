@@ -79,7 +79,7 @@ button{
 .content .card-holder{
     display: flex;
     justify-content: center;
-    
+    flex-wrap: wrap;
     gap: 50px;
 }
 
@@ -111,6 +111,7 @@ button{
     padding: 20px 50px;
     margin: 40px auto;
     width: 600px;
+    max-width: 100%;
     color: white;
     border-radius: 20px;
     background-color: #3882F6;
